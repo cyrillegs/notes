@@ -6,10 +6,9 @@ This documentation covers the standard workflow for generating keys in **Windows
 
 We used **PowerShell** to create a modern **ED25519** key pair. This is the "Identity" your PC uses to prove who you are.
 
-* **Command:** ```powershell
+* **Command:**
+```Powershell
 ssh-keygen -t ed25519 -f "$HOME.ssh\gcp" -C "cheska_site2018"
-```
-
 ```
 
 
